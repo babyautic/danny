@@ -1,46 +1,150 @@
-body {
-    font-family: Arial, Helvetica sans-serif;
-    margin-left: 0%;
-    margin-right: 0%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+ body {
+    background-color: aliceblue;
+    margin: 0;
     
+ }
     
-    
+main {
+    margin: 20px;
 }
-    
 
-#logo {
-    height: 40px;
-   
+
+
+#logo1 {
+    background-color:rgba(3, 3, 36, 0.781);
     
 }
 
-#sottotitolo {
-    background-color: yellow;
-   
+#imglogo1 {
+    width: 120px;
 }
 
-#immagine2 {
-    height: 300px;
-    width: 400px;
-    border-radius: 8px;
+#divlist {
+    background-color: rgba(3, 3, 36, 0.685);
+    display: flex
     
-}
-
-ul {
-    padding: 0;
-    list-style-position: inside;
-    text-align: center;
 }
 
 ol {
+    display: flex;
+    align-items: start;
+    margin: 0;
     padding: 0;
-    list-style-position: inside;
+}
+
+li {
+    color: white;
+    list-style: none;
+    margin-left: 0%; 
+    padding-left: 30px;
+}
+
+#shop {
+    background-color: orange;
+    color: white;
     text-align: center;
+    background-position: center;
+    padding: auto;
+
+}
+
+
+#bagecontainer {
+   
+
+    height: 200px;
+    background-image: url(bg-image.png);
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+        
+}
+
+
+
+
+
+
+
+
+.FinPerfectGift {
+    background-color: white;
+    height: auto;
+}
+
+
+.inline-block {
+    display: inline-block;
+    
+ 
+}
+
+
+.perfect1 {
+    display: flex;
+    justify-content: space-around;
+    background-position: center;
+    margin: 20px
+    
+   
+}
+
+
+    
+
+
+.imgperfect{
+
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15%;
+    
     
 }
 
 
+.immagini {
+ width: 100%;
+}
+
+.sottotitoliimg {
+    text-align: center;
+}
+
+p {
+    color: blue;
+}
+
+#bottone {
+    background-color:rgba(3, 3, 36, 0.685);
+    text-align: center;
+    justify-content: center;
+    
+    height: auto;
+    padding: 20px;
+    
+    
+}
+
+.logofine {
+    display: flex;
+    background-color:rgba(3, 3, 36, 0.781);
+    text-align: center;
+    justify-content: center;
+    height: 1o0px;
+    
+    
+    
+
+}
+
+#fine {
+    display: flex;
+    width: 300px;
+    padding: 20;
+ 
+}
