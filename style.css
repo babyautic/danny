@@ -1,150 +1,264 @@
- body {
-    background-color: aliceblue;
-    margin: 0;
-    
- }
-    
-main {
-    margin: 20px;
+body {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-
-
-#logo1 {
-    background-color:rgba(3, 3, 36, 0.781);
-    
+#logo {
+    padding-left: 50px;
+    margin-right: auto;
+    width: 200px;
 }
 
-#imglogo1 {
-    width: 120px;
-}
-
-#divlist {
-    background-color: rgba(3, 3, 36, 0.685);
-    display: flex
-    
-}
-
-ol {
+header {
     display: flex;
-    align-items: start;
-    margin: 0;
-    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    
+
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
 }
 
 li {
-    color: white;
+    padding: 0px 20px;
+    
+    color: gray;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+
+
+
+
+#flexprincipale {
+    display: flex;
+
+
+
+}
+
+.container1 {
+    display: flex;
+    width: 80%;
+    padding: 0%;
+
+
+
+
+
+
+}
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20%;
+
+    margin: 0%;
+
+
+}
+
+
+.imgsectioncontainer {
+
+    align-items: center;
+    display: flex;
+    
+}
+.imgsection {
+    display: inline-block;
+    
+}
+
+.imgtitolosection {
+    display: inline-block;
+    
+}
+
+
+.video {
+    display: flex;
+    align-items: center;
+    
+
+
+
+}
+
+
+img {
+    width: 400px;
+    height: 150px;
+    position: relative
+
+}
+
+
+
+.sidebar {
+
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    padding-left: 30px;
+
+
+
+}
+
+#asidehead {
+    align-items: center;
+}
+
+#containerlogo2 {
+    text-align: center;
+
+}
+
+#logo2 {
+    width: 50px;
+    height: 50px;
+
+}
+
+#twitterlogo {
+    width: 40px;
+    height: 45px;
+}
+
+.fotofollow {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.containerfollow {
+    display: flex;
+}
+
+#follow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+#list {
+    flex-wrap: wrap;
+    padding: 0%;
+    margin: 0%;
+
+
+
+
+}
+
+.button {
+
+    padding: 0%;
+
+
+}
+
+#chrissycontainer {
+    display: flex;
+    align-items: center;
+
+}
+
+#chrissy {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+
+#chrissyname {
+    padding-left: 10px;
+
+}
+
+#endcontainer {
+    display: flex;
+
+
+
+}
+
+#end {
+    display: flex;
     list-style: none;
-    margin-left: 0%; 
+    flex-wrap: wrap;
+    padding: 0%;
+    margin: 0%;
+}
+
+#position {
+    display: flex;
+    width: 80%;
+    padding-left: 12%;
+}
+
+.follow-padding {
     padding-left: 30px;
 }
 
-#shop {
-    background-color: orange;
-    color: white;
-    text-align: center;
-    background-position: center;
-    padding: auto;
-
+#followingtitolo {
+    color: gray;
+}
+#udacity {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
 }
 
-
-#bagecontainer {
-   
-
-    height: 200px;
-    background-image: url(bg-image.png);
-    margin-bottom: 20px;
-    text-align: center;
-    justify-content: center;
-    padding: auto;
-        
+h1,p {
+    margin: 10px 0px;
 }
 
-
-
-
-
-
-
-
-.FinPerfectGift {
-    background-color: white;
-    height: auto;
+p{
+    color: gray;
+}
+#myprofile {
+    width: 50px;
+    height: 50px;
 }
 
+#evacontainer{
+    display: flex;
+    align-items:center;
+}
 
-.inline-block {
+.recently {
     display: inline-block;
-    
- 
 }
 
 
-.perfect1 {
-    display: flex;
-    justify-content: space-around;
-    background-position: center;
-    margin: 20px
-    
-   
+#imgrecently {
+    display: inline-block;
 }
 
-
-    
-
-
-.imgperfect{
-
-    display: flex;
-    width: 300px;
-    height: 400px;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 15%;
-    
-    
-}
-
-
-.immagini {
- width: 100%;
-}
-
-.sottotitoliimg {
-    text-align: center;
-}
-
-p {
-    color: blue;
-}
-
-#bottone {
-    background-color:rgba(3, 3, 36, 0.685);
-    text-align: center;
-    justify-content: center;
-    
-    height: auto;
-    padding: 20px;
-    
-    
-}
-
-.logofine {
-    display: flex;
-    background-color:rgba(3, 3, 36, 0.781);
-    text-align: center;
-    justify-content: center;
-    height: 1o0px;
-    
-    
-    
-
-}
-
-#fine {
-    display: flex;
-    width: 300px;
-    padding: 20;
- 
+#eva {
+    width: 20px;
+    height: 20px;
 }
