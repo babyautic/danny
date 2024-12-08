@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmi di ricerca</title>
+</head>
+
+<body>
+    <h1>Cerca lavori</h1>
+    <p>Località: <input type="text" id="location" /></p>
+    <p>Lavoro: <input type="text" id="title" /></p>
+    <button id="cercaLavori">Cerca</button>
+    <table id="jobsTable" border="1">
+        <thead>
+            <tr>
+                <th>Località</th>
+                <th>Lavoro</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+    <script type ="module">
+
+        import * as activity from './esercizioEsameJobs.js';
+
+        document.getElementById('cercaLavori').addEventListener('click', () => {
+            activity.cercaLavoro(document.getElementById('location').value, document.getElementById('title').value);
+        });
+
+
+
+    </script>
+
+
+
+
+    </script>
+</body>
+
+</html>
