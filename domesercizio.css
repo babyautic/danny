@@ -1,0 +1,30 @@
+
+
+
+h1{
+    text-align: center;
+}
+    
+
+.containerPhone{
+    display: flex;
+}
+
+img {
+    width: 200px;
+}
+
+.containerP{
+    text-align: start;
+    
+    
+}
+
+
+.newLink{
+    color: red;
+}
+
+.hidden{
+    display: none;
+}
