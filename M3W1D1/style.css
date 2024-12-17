@@ -1,0 +1,60 @@
+/*1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron*/
+.display-4.display-4.font-italic {
+    border: solid blue;
+}
+
+/*2) Crea un selettore per selezionare tutti i figli dell'elemento navbar*/
+.nav.d-flex.justify-content-between.mb-2>span {
+    border: solid rgb(80, 51, 51);
+}
+
+/*3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron*/
+.stretched-link {
+    border: solid yellow;
+    color: rgb(255, 1, 192);
+}
+
+/*4) Crea un selettore per selezionare il primo blog post*/
+.blog-post:nth-of-type(1) {
+    border: solid blue;
+}
+
+/*5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso*/
+hr:first-of-type {
+    border: solid rgb(255, 0, 0);
+    border-bottom-width: 20px;
+}
+
+/*6) Crea un selettore per selezionare i link pari della navbar
+???*/
+
+/*7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio")*/
+.p-4:nth-of-type(2) li {
+    border: solid rgb(82, 87, 75);
+}
+
+/*8) Crea un selettore per selezionare l'autore del secondo blog post*/
+.blog-post:nth-of-type(2) h2+p a {
+    border: solid rgb(255, 0, 179);
+}
+
+/*9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post*/
+.blog-post:nth-of-type(3) li:nth-of-type(2) {
+    border: solid red;
+    color: red;
+}
+
+/*10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra*/
+.float-right.mb-3.mr-3 {
+    border: solid rgb(0, 195, 255);
+}
+
+/*11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso*/
+.blog-pagination a:nth-of-type(2) {
+    border: solid rgb(124, 27, 27)
+}
+
+/*12) Crea un selettore per selezionare il secondo link del footer*/
+.text-center a:nth-of-type(2) {
+    border: solid green;
+}
